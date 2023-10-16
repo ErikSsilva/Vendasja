@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+button, input {
+  border: none;
+  outline: none;
+}
+
+.head-content {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: #324A5F;
+  padding: 15px 3%;
+  justify-content: center;
+  border-bottom: 3px solid #1B2A41;
+}
+
+.logo-top-bar {
+  width: 150px;
+  height: fit-content;
+  margin-left: 3%;
+  align-self: center;
+}
+
+.top-bar {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-box {
+  background: #1B2A41;
+  border-radius: 40px;
+  margin: 10px 10px 0;
+  height: 40px;
+  max-width: 490px;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  width: 90%;
+  color: #CCC9DC;
+  font-size: 1rem;
+  line-height: 40px;
+  padding-left: 10px;
+}
+
+.search-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  background: #B6C8A9;
+  justify-content: center;
+  align-items: center;
+}
+
+.enter-btn {
+  align-self: center;
+  justify-self: center;
+  position: absolute;
+  right: 10%;
+}
+
+.entrar {
+  padding: 15px 45px;
+  border: 3px solid gray;
+  border-radius: 30px;
+  font-size: 0.9rem;
+}
+
+.entrar:hover {
+  background-color: #B6C8A9;
+  transition: background 0.5s ease;
+}
+
+.content-banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.banner {
+  width: 90%;
+  max-width: 1600px;
+  max-height: 500px;
+  border-radius: 25px;
+}
+
+.sub-bar {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 1600px;
+}
+
+.icons-categories {
+  background-color: #324A5F;
+  padding: 10px 20px;
+  justify-content: center;
+  margin: 10px;
+  text-align: center;
+  border-radius: 40px;
+  transition: all 0.3s ease;
+}
+
+.icons-categories a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.icons-categories:hover {
+  border-radius: 70%;
+}
+
+ul {
+  list-style: none;
+}
+
+
